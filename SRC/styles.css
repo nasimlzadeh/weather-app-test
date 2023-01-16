@@ -1,0 +1,72 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: Comic Sans MS;
+}
+h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+h2 {
+  font-size: 32px;
+  line-height: 180%;
+  font-weight: 800;
+  margin: 0 15px 0 10px;
+  /* margin-bottom: 15px; */
+}
+h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 5px 0 0 15px;
+}
+h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+p {
+  text-align: center;
+}
+.container {
+  max-width: 700px;
+}
+
+.btn {
+  font-family: Comic Sans MS;
+}
+.unit {
+  font-size: 26px;
+}
+
+.form-control {
+  font-family: Comic Sans MS;
+}
+.fortell {
+  text-align: center;
+}
+.next-Days {
+  display: block;
+  margin: 0 auto;
+}
+.col-lg-1 {
+  width: 130px;
+}
+.prediction {
+  margin-top: 40px;
+}
+
+#celsius {
+  font-family: Comic Sans MS;
+  font-size: 26px;
+}
+#farenheit {
+  font-family: Comic Sans MS;
+  font-size: 26px;
+}
+#degree {
+  font-family: Comic Sans MS;
+  font-size: 40px;
+}

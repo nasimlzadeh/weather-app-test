@@ -70,5 +70,5 @@ search.addEventListener("click", cityInfo);
 // let celDeg = document.querySelector("#degree");
 // celDeg.addEventListener("click", showCel);
 let locate = document.querySelector("#locate");
-// locate.addEventListener("click", changeInfo);
+locate.addEventListener("click", changeInfo);
 locate.addEventListener("click", myPosition);

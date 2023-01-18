@@ -57,7 +57,9 @@ p {
 .prediction {
   margin-top: 40px;
 }
-
+.github {
+  padding-left: 5px;
+}
 #celsius {
   font-family: Comic Sans MS;
   font-size: 26px;

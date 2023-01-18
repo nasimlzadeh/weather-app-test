@@ -15,82 +15,94 @@
     <title>Nasim's Weather app</title>
   </head>
   <body>
-    <div class="container border">
-      <form class="mt-5">
-        <div class="row">
-          <div class="col-sm-8">
-            <div class="mb-5">
-              <input
-                type="search"
-                class="form-control"
-                placeholder="Enter the name of the city"
-                id="fav-city"
-              />
+    <div class="container">
+      <div class="border">
+        <form class="mt-5">
+          <div class="row">
+            <div class="col-sm-8">
+              <div class="mb-5">
+                <input
+                  type="search"
+                  class="form-control"
+                  placeholder="Enter the name of the city"
+                  id="fav-city"
+                />
+              </div>
+            </div>
+
+            <div class="col-sm-2">
+              <button type="submit" class="btn btn-success" id="search">
+                Search
+              </button>
+            </div>
+            <div class="col-sm-2">
+              <button type="submit" class="btn btn-danger" id="locate">
+                Locate
+              </button>
             </div>
           </div>
-
-          <div class="col-sm-2">
-            <button type="submit" class="btn btn-success" id="search">
-              Search
-            </button>
+        </form>
+        <div class="row">
+          <div class="col-sm-5">
+            <h2 id="currentCity">Tehran, Iran</h2>
+            <h3 id="time">Thursday 15:30</h3>
+            <h3 id="weather">Partly Cloudy</h3>
           </div>
-          <div class="col-sm-2">
-            <button type="submit" class="btn btn-danger" id="locate">
-              Locate
-            </button>
+          <div class="col-sm-3">
+            <img
+              class="next-Days"
+              src="Media/partly-cloudy.png"
+              width="140px"
+            />
           </div>
-        </div>
-      </form>
-      <div class="row">
-        <div class="col-sm-5">
-          <h2 id="currentCity">Tehran, Iran</h2>
-          <h3 id="time">Thursday 15:30</h3>
-          <h3 id="weather">Partly Cloudy</h3>
-        </div>
-        <div class="col-sm-3">
-          <img class="next-Days" src="Media/partly-cloudy.png" width="140px" />
-        </div>
-        <div class="col-sm-4">
-          <br />
-          <span id="degree"> 19 °C</span>
-
-          <h4>
-            <!-- pericipitation: 1%
-            <br /> -->
-            <span id="humidity">Humidity: 50%</span>
+          <div class="col-sm-4">
             <br />
-            <span id="windy">Wind: 0 km/h</span>
-          </h4>
+            <span id="degree"> 19 °C</span>
+
+            <h4>
+              <!-- pericipitation: 1%
+            <br /> -->
+              <span id="humidity">Humidity: 50%</span>
+              <br />
+              <span id="windy">Wind: 0 km/h</span>
+            </h4>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col col-lg-1">
+            <h4 class="fortell">Fri</h4>
+            <img class="next-Days" src="Media/partly-cloudy.png" width="70px" />
+            <p>8°C</p>
+          </div>
+          <div class="col col-lg-1">
+            <h4 class="fortell">Sat</h4>
+            <img class="next-Days" src="Media/snowrain.png" width="70px" />
+            <p>8°C</p>
+          </div>
+          <div class="col col-lg-1">
+            <h4 class="fortell">Sun</h4>
+            <img class="next-Days" src="Media/snowy.png" width="70px" />
+            <p>8°C</p>
+          </div>
+          <div class="col col-lg-1">
+            <h4 class="fortell">Mon</h4>
+            <img class="next-Days" src="Media/partly-cloudy.png" width="70px" />
+            <p>8°C</p>
+          </div>
+          <div class="col col-lg-1">
+            <h4 class="fortell">Tue</h4>
+            <img class="next-Days" src="Media/partly-cloudy.png" width="70px" />
+            <p>8°C</p>
+          </div>
         </div>
       </div>
-      <div class="row mt-5">
-        <div class="col col-lg-1">
-          <h4 class="fortell">Fri</h4>
-          <img class="next-Days" src="Media/partly-cloudy.png" width="70px" />
-          <p>8°C</p>
-        </div>
-        <div class="col col-lg-1">
-          <h4 class="fortell">Sat</h4>
-          <img class="next-Days" src="Media/snowrain.png" width="70px" />
-          <p>8°C</p>
-        </div>
-        <div class="col col-lg-1">
-          <h4 class="fortell">Sun</h4>
-          <img class="next-Days" src="Media/snowy.png" width="70px" />
-          <p>8°C</p>
-        </div>
-        <div class="col col-lg-1">
-          <h4 class="fortell">Mon</h4>
-          <img class="next-Days" src="Media/partly-cloudy.png" width="70px" />
-          <p>8°C</p>
-        </div>
-        <div class="col col-lg-1">
-          <h4 class="fortell">Tue</h4>
-          <img class="next-Days" src="Media/partly-cloudy.png" width="70px" />
-          <p>8°C</p>
-        </div>
+      <div class="github">
+        <a target="_blank" href="https://github.com/nasimlzadeh">
+          Open-Source Code </a
+        >, by Nasim L.Zadeh
       </div>
     </div>
+
     <script src="SRC/index.js"></script>
   </body>
 </html>
